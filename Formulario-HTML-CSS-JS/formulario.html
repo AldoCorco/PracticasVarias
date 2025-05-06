@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC-Indice de Masa Corporal</title>
+    <script type="text/javascript" src="funciones/calcular.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+    <fieldset>
+        <h1>Para calcular su índice corporal, ingrese su estatura y peso</h1>
+        <p>ESTATURA</p>
+        <p><input id="m" name="textinput" type="text"></p>
+        <p>PESO</p>
+        <p><input id="kg" name="textinput" type="text"></p>
+        
+        <button call ="btnCalc" id="btnCalc" name="Boton Calcular" onclick="calcular(document.getElementById('kg').value,document.getElementById('m').value);">CALCULAR</button>
+
+        <p>IMC: <span id="imc"></span></p>
+        <p>Lectura: <span id="lectura"></span></p>
+
+        
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXTOS VARIOS</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <fieldset class="f1">
+        <h1>PARRAFOS COLORIDOS</h1>
+        
+        <h2>Esto es una practica</h2>
+
+        <p class="p1" id="1">Esto es una <strong>prueba 1</strong></p>
+        <p class="p2"id="2">Esto es una prueba 2</p>
+        <span>
+            <a href="https://www.clarin.com/">Clarin</a>
+        </span>
+        <span>
+            <a href="https://www.minutouno.com/">Minutouno</a>
+        </span>
+            
+        
+    </fieldset>
+    <fieldset class="f1">
+        <p class="p3"id="3">Esto es una prueba 3</p>
+        <p class="p4"id="4">Esto es una prueba 4</p>
+        <center><img src="./img/cubo.png" class="img"></center>
+    </fieldset>
+    <a href="https://www.minutouno.com/">Minuto Uno</a>
+
+    <p>Elija la dimensionalidad necesaria:</p>
+    <p>Dimensionalidad: <select id="cbxDimensionalidad" onchange="elegirDimensionalidad()">
+      <option value="2">2 </option>
+      <option value="3">3 </option>
+    </select></p>
+    <p>Introduzca las coordenadas de puntos.</p>
+    
+    
+    <div id="selected2d">
+    <p> A: ( <input id="txt2XA" type="text"> ,  <input id="txt2YA" type="text"> )</p>
+    <p> B: ( <input id="txt2XB" type="text"> ,  <input id="txt2YB" type="text"> )</p>
+    <div class="divbutton">
+      <button id="btnCalcular" onclick="clickBtnCalcular2d()">Calcular la longitud del segmento AB</button>
+    </div>
+    <p></p>
+    </div>
+
+    <h1>Medir distancia entre coordenadas geográficas</h1>
+    <input type="text" id="lat1" placeholder="Latitud 1">
+    <input type="text" id="lon1" placeholder="Longitud 1">
+    
+    <input type="text" id="lat2" placeholder="Latitud 2">
+    <input type="text" id="lon2" placeholder="Longitud 2">
+    
+    <button id="cal">Calcular</button>
+    <h2 id="cm"></h2>
+    <h2 id="metros"></h2>
+    <h2 id="km"></h2>
+    <h2 id="pie"></h2>
+    
+</body>
+</html>
+
+
+{}
+[]
